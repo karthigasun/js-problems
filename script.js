@@ -69,10 +69,23 @@ console.log(a);
 console.log(b);
 console.log(rest);
 
-
-
-
-
+var Employee =
+{
+company: 'xyz'
+}
+var Emp1 = Object.create(Employee);
+console.log(Employee);
+delete Employee.company ;
+console.log(Employee);
+var x;
+function my(x){
+    
+    delete x;
+    return x;
+    
+}
+my(0);
+console.log(x);
 
 
 
