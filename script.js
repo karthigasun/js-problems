@@ -18,12 +18,12 @@
 // console.log(arr3);
 
 let arr=[
-    {first_name:"aaa",last_name:"bbb"},
-    {first_name:"aa",last_name:"bb"},
-    {first_name:"a",last_name:"b"}
+    {first_name:"26",last_name:"bbb"},
+    {first_name:"23",last_name:"bb"},
+    {first_name:"23",last_name:"b"}
 ];
 arr.filter(function name(a) {
-    if(a.first_name=="a"){
+    if(a.first_name<26){
         console.log(a);
     }
 });
@@ -86,20 +86,25 @@ function my(x){
 }
 my(0);
 console.log(x);
-var Emp1 = Object.create(Employee);
-console.log(Employee);
-delete Employee.company ;
-console.log(Employee);
-var x;
-function my(x){
-    
-    delete x;
-    return x;
-    
-}
-my(0);
-console.log(x);
 
+//Check Vowels in the word if print "1" else "err"
+vow=["a","e","i","o","u"],myname="karth",val=0;
+
+for(i=0;i<myname.length;i++){
+	for(j=0;j<vow.length;j++){
+		if(myname[i]==vow[j]){
+			val++;
+			
+			if(val){
+				console.log(1);
+			}
+			else{
+				console.log("error");
+			}
+		}
+		
+	}
+}
 
 
 
