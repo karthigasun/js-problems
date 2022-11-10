@@ -1,4 +1,4 @@
-// let string="abc def",count;
+/* // let string="abc def",count;
 // count=string.split(" ");
 // console.log(count);
 // console.log(count.length);
@@ -85,38 +85,57 @@ function my(x){
     
 }
 my(0);
-console.log(x);
+console.log(x); */
 
-//Check Vowels in the word if print "1" else "err"
-vow=["a","e","i","o","u"],myname="karth",val=0;
+//Write a program to print Diamond Star Pattern
+/* let str="",num=5;
+for(i=0;i<num;i++){
+	for(j=num;j>i;j--){
+			str+=" ";
+			//console.log(str);
+	}
+	for(a=0;a<i*2-1;a++){
+		str+="*";
+		//console.log(str);
+	}
+	str+="\n"
+}
+//console.log(str);
+for(i=0;i<num;i++){
+	//str+="";
+	//console.log(str)
+	for(j=0;j<i;j++){
+		str+=" "
+		//console.log(str)
+	}
+	for(var a=(num-i)*2-1;a>0;a--){
+		str+="*"
+		//console.log(str);
+	}
+	str+="\n";
+}
+console.log(str); */
 
-for(i=0;i<myname.length;i++){
-	for(j=0;j<vow.length;j++){
-		if(myname[i]==vow[j]){
-			val++;
-			
-			if(val){
-				console.log(1);
-			}
-			else{
-				console.log("error");
-			}
-		}
-		
+let arr=[1,5,3,12],arr2=[],num=1,order;
+
+for(i=0;i<arr.length;i++){
+	if(arr[i]>num){
+		arr2.push(arr[i]);
 	}
 }
+console.log(arr2);
 
+order=arr2.sort(function(a,b){return a-b})
+console.log(order);
 
-
-
-
-
-
-
-
-
-
-
+if(arr2){
+	let l=arr.length-1;
+	console.log(arr.splice(l,1,-1));
+	console.log(arr);
+}
+else{
+	console.log(arr[0]);
+}
 
 
 
