@@ -137,7 +137,18 @@ else{
 	console.log(arr[0]);
 }
 
+// let word="level",wor1="";
 
+// for(i=word.length-1;i>=0;i--){
+//     wor1+=word[i];
+// }
+//     //console.log(wor1);
+//     if(word==wor1){
+//         console.log("palindrome",word);
+//     }
+//     else{
+//         console.log("not palindrome",word);
+//     }
 
 
 
