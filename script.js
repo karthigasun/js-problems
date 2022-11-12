@@ -137,21 +137,16 @@ else{
 	console.log(arr[0]);
 }
 
-// let word="level",wor1="";
+let l=[1,2,3,4,5];
+console.log(l[l.length-2]);
 
-// for(i=word.length-1;i>=0;i--){
-//     wor1+=word[i];
-// }
-//     //console.log(wor1);
-//     if(word==wor1){
-//         console.log("palindrome",word);
-//     }
-//     else{
-//         console.log("not palindrome",word);
-//     }
-
-
-
+var st="Rkarthigasun",tex="";
+for(i=0;i<st.length;i++){
+	
+	tex=tex+st[i];
+	//console.log(tex);
+}
+console.log(tex);
 
 
 
