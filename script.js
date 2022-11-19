@@ -116,40 +116,46 @@ for(i=0;i<num;i++){
 }
 console.log(str); */
 
-let arr=[1,5,3,12],arr2=[],num=1,order;
+// let arr=[1,5,3,12],arr2=[],num=1,order;
 
-for(i=0;i<arr.length;i++){
-	if(arr[i]>num){
-		arr2.push(arr[i]);
-	}
+// for(i=0;i<arr.length;i++){
+// 	if(arr[i]>num){
+// 		arr2.push(arr[i]);
+// 	}
+// }
+// console.log(arr2);
+
+// order=arr2.sort(function(a,b){return a-b})
+// console.log(order);
+
+// if(arr2){
+// 	let l=arr.length-1;
+// 	console.log(arr.splice(l,1,-1));
+// 	console.log(arr);
+// }
+// else{
+// 	console.log(arr[0]);
+// }
+
+// let l=[1,2,3,4,5];
+// console.log(l[l.length-2]);
+
+let fun=(a,b)=>{
+	return (a*b);
 }
-console.log(arr2);
+console.log(fun(2,4));
 
-order=arr2.sort(function(a,b){return a-b})
-console.log(order);
-
-if(arr2){
-	let l=arr.length-1;
-	console.log(arr.splice(l,1,-1));
-	console.log(arr);
-}
-else{
-	console.log(arr[0]);
-}
-
-let l=[1,2,3,4,5];
-console.log(l[l.length-2]);
-
-var st="Rkarthigasun",tex="";
-for(i=0;i<st.length;i++){
-	
-	tex=tex+st[i];
-	//console.log(tex);
-}
-console.log(tex);
-
-
-
+var a=[1,2,3],b=[4,5,6],c;
+// c=[a,...b];
+console.log([a,...b]);
+let counter = 0;
+function add() {
+	counter += 1;
+	return counter;
+  }
+  console.log(add());
+  console.log(add());
+  console.log(add());
 
 
 
