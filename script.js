@@ -157,6 +157,43 @@ function add() {
   console.log(add());
   console.log(add());
 
+let object=[
+	{
+		name:"karthi",
+		height:179
+	},
+	{
+		name:"karthi",
+		height:178
+	},
+	{
+		name:"karthi",
+		height:177
+	},
+	{
+		name:"karthi",
+		height:176
+	},
+	{
+		name:"karthi",
+		height:175
+	},
+],obj1;
+
+for (let x in object){
+	console.log(x)
+}
+let object2 ={
+	name:"karthi",
+	height:175
+},obj2;
+obj2=Object.keys((object2));
+console.log(obj2);
+obj2=Object.values((object2));
+console.log(obj2);
+
+
+
 
 
 
